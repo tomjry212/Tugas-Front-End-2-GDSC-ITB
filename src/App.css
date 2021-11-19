@@ -1,0 +1,57 @@
+.App {
+  font-family:"Poppins";
+  src:url(https://fonts.googleapis.com/css?family=Poppins);
+ 
+}
+
+body{
+  color:whitesmoke;
+  background-image:url('1811402.jpg');
+}
+
+
+.wl {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 1em;
+
+}
+
+.wlcontent {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+border: 1px solid #888;
+width: 80%;
+
+}
+
+.wlheader {
+padding: 1em;  
+background-color: black;
+color: white;
+font-size: large;
+text-align: center;
+}
+
+.wlcard {
+margin: 2em;  
+max-width: 20%;  
+padding: 0 25px;
+height: 150px;
+font-size: 16px;
+line-height: 50px;
+border-radius: 25px;
+background-color: #f1f1f1;
+}
+
+.WishlistCard img {
+  float: left;
+margin: 0 10px 0 -25px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+

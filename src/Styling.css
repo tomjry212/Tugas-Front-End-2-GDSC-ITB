@@ -1,0 +1,112 @@
+.tab {
+  background-color: #000000;
+  padding:1em
+}
+.tab ul li .Home{
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+.tab ul li .wlbutton{
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+.tab ul li .Home:hover {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  /* Create an active/current "tab button" class */
+.tab ul li .wlbutton:hover {
+    background-color: rgb(255, 0, 0);
+  }
+
+.overviewheader{
+      font-size: x-large;
+      float:left
+  }
+  
+
+.overviewcontent{
+      padding: 1em;
+  }
+.overviewposter{
+    padding:1em;
+    float:left;
+}
+
+.App .card{
+    padding:10%;
+    display:grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+}
+
+.card .moviecard{
+    border-radius: 10px;
+    box-shadow:turquoise;
+    transition: 0.3s;
+    width:80%;
+}
+
+.moviecard:hover{
+    box-color:turquoise
+}
+
+.poster{
+    padding: 0px 10 px 10 px 10 px
+}
+
+.button{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 2px;
+}
+
+.button:hover{
+    background-color: chartreuse;
+}
+
+.button.p{
+    font-size: small;
+}
+.backbutton{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 2px;
+}
+
+.backbutton:hover{
+  background-color: chartreuse;}
+
+  .removebutton{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 2px;
+}
+
+.removebutton:hover{
+  background-color: chartreuse;}
